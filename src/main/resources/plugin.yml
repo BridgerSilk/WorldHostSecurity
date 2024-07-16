@@ -1,0 +1,12 @@
+name: WorldHostSecurity
+version: '${project.version}'
+main: tk.bridgersilk.worldhostsecurity.WorldHostSecurity
+api-version: '1.20'
+prefix: WorldHostSecurity
+load: STARTUP
+authors: [BridgerSilk]
+description: Security essential utils for worldhost.pro
+commands:
+  worldhostsecurity:
+    description: Display WorldHostSecurity data for all worlds.
+    usage: /worldhostsecurity
